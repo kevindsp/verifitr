@@ -1,0 +1,16 @@
+Package: verifitr
+Title: A package for retrieving and plotting Verifit test results
+Version: 0.1.0.0
+Authors@R: person("Kevin", "Seitz-Paquette", email = "kevin_seitz-paquette@starkey.com", role = c("aut", "cre"))
+Description: A package for retreiving and plotting Verifit test results.
+    Test results are exported from the Verifit in xml format.  This format is
+    useful for storing and sharing non-tabular data, but it is not user-friendly
+    for visualization and manipulation.  This package contains functions to
+    retreive common Verifit test results (e.g., speech mapping, on-ear
+    directionality, etc).  Test results can be returned as a csv file or a
+    data frame (for use in R).
+Depends: R (>= 3.2.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
